@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* a {
+    color: black;
+    text-decoration: none !important;
+} */
+
+
+.container{
+    
+    position: relative;
+    background-image: url("ismail-merad-2imsg-Ob4Qs-unsplash.jpg");
+    background-size: cover;
+    border-radius: 44px;
+
+    width:375px ;
+    height: 832px;
+    margin: 0 auto;
+    border-radius: 44px;
+    border:5px solid black;
+    /* background-color: rgb(236, 235, 233); */
+}
+h1{
+    color: rgb(252, 246, 238);
+}
+.logo{
+    
+    z-index: 2;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.logo img {   
+    width: 100px;
+    border-radius: 50%;
+
+}
+.login-form{
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom:160px;
+    position: relative;
+}
+.form__input{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    padding-left: 5px;
+    /* opacity: 10%; */
+    z-index: 1;
+    border: 1px solid snow;
+    /* line-height: 150%; */
+}
+svg {position: absolute;
+    top: 140px;
+    right: 33px;
+
+    /* display: block; */
+    width: 25px;
+    height: 25px;
+    color:rgb(202, 193, 193);
+    /* background-color: red; */
+    z-index: 2;
+    /* background-color: black; */
+}
+svg:hover{
+    cursor: pointer;
+}
+.login-form h4{
+    margin-top: 5px;
+    text-align: right;
+    color: rgb(252, 246, 238);
+
+    
+}
+ h4:hover{
+    color: rgb(159, 236, 236);
+    cursor: pointer;
+}
+.login__button{
+    background-color: rgb(124, 126, 128);
+    margin-top: 40px;
+    height: 50px;
+    width: 100%;
+    font-size: large;
+    
+}
+.login__button:hover{
+    cursor: pointer;
+    background-color: rgb(153, 150, 146);
+}
+footer{
+    width: 100%;
+    padding: 0 20px;
+}
+.footer__anotherAccount{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(225, 230, 235);
+
+}
+.footer__anotherAccount:hover{
+    cursor: pointer;
+    background-color: rgb(234, 236, 238);
+}
+footer h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(252, 246, 238);
+
+}
