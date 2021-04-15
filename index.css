@@ -18,10 +18,13 @@
     border-radius: 44px;
 
     width:375px ;
-    height: 832px;
+    /* height: 832px; */
+    height: 95vh;
     margin: 0 auto;
     border-radius: 44px;
     border:5px solid black;
+    margin-top: 16px;
+    /* margin: auto 0; */
     /* background-color: rgb(236, 235, 233); */
 }
 h1{
@@ -42,7 +45,7 @@ h1{
 .login-form{
     width: 100%;
     padding: 0 20px;
-    margin-bottom:160px;
+    margin-bottom:16px;
     position: relative;
 }
 .form__input{
@@ -94,8 +97,8 @@ svg:hover{
     background-color: rgb(153, 150, 146);
 }
 footer{
-    width: 100%;
-    padding: 0 20px;
+    width: 100%; 
+     padding: 0 20px;
 }
 .footer__anotherAccount{
     width: 100%;
